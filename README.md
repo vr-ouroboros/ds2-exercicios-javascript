@@ -17,7 +17,7 @@ O banco de dados pode ser necessário para buscar, armazenar e atualizar informa
 | Limitações | Codigo pode ser visto e alterado por usuários | Depende da comunicação com servidor |
 | Exemplos | Alterar elementos da página, animações | Consultar banco de dados, autenticar usuário |
 
-## Classificação das operações
+### Classificação das operações
 1. Validar se um campo obrigatório foi preenchido — Client-side e Server-side (ambos).
 No client-side, a validação pode informar imediatamente ao usuário que o campo está vazio. Porém, também deve existir uma validação no server-side, pois a validação feita no navegador pode ser ignorada ou manipulada.
 2. Consultar dados sigilosos de um cliente — Server-side.
@@ -36,3 +36,7 @@ Ao substituir 'console.log' por 'Console.log'  o erro `Uncaught ReferenceError: 
 
 ## Exercício 4
 A diferença entre uma variável declarada com 'let' e outra declarada com 'const' é que quando declarada com 'let' essa variável pode ter seu valor alterado a qualquer momento, já uma variável declarada com 'const' não poderá ter seu valor alterado.
+
+## Exercício 6
+Ao usar '`20+5`' e resultar '205' no JavaScript acontece porque a linguagem entende que está se somando duas strings e não números.
+
