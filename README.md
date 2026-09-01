@@ -38,5 +38,5 @@ Ao substituir 'console.log' por 'Console.log'  o erro `Uncaught ReferenceError: 
 A diferença entre uma variável declarada com 'let' e outra declarada com 'const' é que quando declarada com 'let' essa variável pode ter seu valor alterado a qualquer momento, já uma variável declarada com 'const' não poderá ter seu valor alterado.
 
 ## Exercício 6
-Ao usar '`20+5`' e resultar '205' no JavaScript acontece porque a linguagem entende que está se somando duas strings e não números.
+Ao usar "´20+5´" resulta em '205' ao invés de '25' no JavaScript acontece porque a linguagem entende que está se somando duas strings e não números.
 
