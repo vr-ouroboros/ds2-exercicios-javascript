@@ -31,3 +31,8 @@ O client-side pode calcular e mostrar rapidamente o valor total para o usuário.
 6. Controlar uma sessão de usuário — Server-side.
 O controle da sessão deve ser realizado principalmente pelo servidor, pois envolve autenticação, identificação do usuário e proteção de informações. O navegador pode armazenar um cookie ou token relacionado à sessão, mas o controle e a validação devem ficar no servidor.
 
+## Exercício 3
+Ao substituir 'console.log' por 'Console.log'  o erro `Uncaught ReferenceError: Console is not defined` foi exibido e ele acontece porque o JavaScript é case sensitive, ou seja, ele diferencia minúsculas de maiúsculas.
+
+## Exercício 4
+A diferença entre uma variável declarada com 'let' e outra declarada com 'const' é que quando declarada com 'let' essa variável pode ter seu valor alterado a qualquer momento, já uma variável declarada com 'const' não poderá ter seu valor alterado.
