@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+body {
+    background-color:#051833;
+    font-size-adjust: 100%;
+    color: #aa9c19;
+    max-width: 980px;
+    margin: 0px auto 0px auto;
+    border: 1px solid #000;
+    border-radius: 10px;
+}
+div{
+    display: flex;
+    justify-content: center;
+}
+h1{
+    text-align: center;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    
+}
+.selecionaScript{
+    width: 100%;
+    max-width: 320px;
+    padding: 12px 16px;
+
+    font-size: 16px;
+    font-weight: 500;
+    color: #222;
+
+    background-color: #fff;
+    border: 2px solid #ddd;
+    border-radius: 12px;
+
+    outline: none;
+    cursor: pointer;
+
+    transition: all 0.2s ease;
+}
+
+.selecionaScript:hover {
+    border-color: #888;
+}
+
+.selecionaScript:focus {
+    border-color: #6c63ff;
+    box-shadow: 0 0 0 4px rgba(108, 99, 255, 0.15);
+}
